@@ -1,0 +1,444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "teal",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": 15,
+        "flex": 1,
+        "margin": 10,
+      }
+    }
+  >
+    <RCTScrollView
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      style={
+        Object {
+          "marginHorizontal": 20,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "borderRadius": 15,
+              "flex": 0.1,
+              "flexDirection": "row",
+              "margin": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "teal",
+                "borderRadius": 15,
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 30,
+                  "margin": 10,
+                }
+              }
+            >
+               TEST ELEMENT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderRadius": 15,
+              "flex": 0.1,
+              "flexDirection": "row",
+              "margin": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "teal",
+                "borderRadius": 15,
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 30,
+                  "margin": 10,
+                }
+              }
+            >
+               TEST ELEMENT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderRadius": 15,
+              "flex": 0.1,
+              "flexDirection": "row",
+              "margin": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "teal",
+                "borderRadius": 15,
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 30,
+                  "margin": 10,
+                }
+              }
+            >
+               TEST ELEMENT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderRadius": 15,
+              "flex": 0.1,
+              "flexDirection": "row",
+              "margin": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "teal",
+                "borderRadius": 15,
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 30,
+                  "margin": 10,
+                }
+              }
+            >
+               TEST ELEMENT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderRadius": 15,
+              "flex": 0.1,
+              "flexDirection": "row",
+              "margin": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "teal",
+                "borderRadius": 15,
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 30,
+                  "margin": 10,
+                }
+              }
+            >
+               TEST ELEMENT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderRadius": 15,
+              "flex": 0.1,
+              "flexDirection": "row",
+              "margin": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "teal",
+                "borderRadius": 15,
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 30,
+                  "margin": 10,
+                }
+              }
+            >
+               TEST ELEMENT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderRadius": 15,
+              "flex": 0.1,
+              "flexDirection": "row",
+              "margin": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "teal",
+                "borderRadius": 15,
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 30,
+                  "margin": 10,
+                }
+              }
+            >
+               TEST ELEMENT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderRadius": 15,
+              "flex": 0.1,
+              "flexDirection": "row",
+              "margin": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "teal",
+                "borderRadius": 15,
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 30,
+                  "margin": 10,
+                }
+              }
+            >
+               TEST ELEMENT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderRadius": 15,
+              "flex": 0.1,
+              "flexDirection": "row",
+              "margin": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "teal",
+                "borderRadius": 15,
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 30,
+                  "margin": 10,
+                }
+              }
+            >
+               TEST ELEMENT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderRadius": 15,
+              "flex": 0.1,
+              "flexDirection": "row",
+              "margin": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "teal",
+                "borderRadius": 15,
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 30,
+                  "margin": 10,
+                }
+              }
+            >
+               TEST ELEMENT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderRadius": 15,
+              "flex": 0.1,
+              "flexDirection": "row",
+              "margin": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "teal",
+                "borderRadius": 15,
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 30,
+                  "margin": 10,
+                }
+              }
+            >
+               TEST ELEMENT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderRadius": 15,
+              "flex": 0.1,
+              "flexDirection": "row",
+              "margin": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "teal",
+                "borderRadius": 15,
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 30,
+                  "margin": 10,
+                }
+              }
+            >
+               TEST ELEMENT
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

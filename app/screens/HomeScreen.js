@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, Button, Platform} from 'react-native';
-import { BarCodeScanner } from 'expo-barcode-scanner';
+import React from 'react';
+import { StyleSheet, View} from 'react-native';
 import Ionicons from "@expo/vector-icons/Ionicons";
 import MapView, {Marker, Callout} from 'react-native-maps';
 

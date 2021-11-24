@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, Button} from 'react-native';
+import { StyleSheet, Text, View, Button, Image} from 'react-native';
 import { BarCodeScanner } from 'expo-barcode-scanner';
 import Ionicons from "@expo/vector-icons/Ionicons";
 
@@ -9,13 +9,18 @@ return (
       <View style={styles.main}>
           <View style={styles.container}>
             <View style={styles.qrSection}> 
-                <View style={styles.qrContainer}>
-                  <View>
-                    <Ionicons name="arrow-back" size={40} color="teal"  onPress={() => {route.navigation.goBack()}}/>
-                  </View>
-                    <Text style={{margin:20}}>
-                      QR HELPER
+            <View style = {styles.helperTitle}>
+                    <View style={{flex: 1}}>
+                      <Ionicons name="chevron-back" size={40} color="teal"  onPress={() => {route.navigation.goBack()}}/>
+                    </View>
+                    <View style={{flex: 2.5}}>
+                      <Text style={{fontSize: 30, fontWeight: "bold", color: "teal", marginTop: 3}}>
+                        SCANNER
                       </Text>
+                    </View>
+                </View>
+                <View style={styles.qrContainer}>
+                    <Image source = {require('C:/code/gamma/assets/img/qr-helper.jpg')} style={{flex:1, borderRadius:5, resizeMode: "contain"}}/>
                 </View>
             </View> 
           </View>
@@ -50,16 +55,21 @@ const styles = StyleSheet.create({
       flex: 0.5,
     },
     qrContainer: {
-      flex: 1,
+      top: 150,
+      flex: 10,
       backgroundColor: '#fff',
       alignItems: 'center',
       justifyContent: 'center',
       borderWidth:3,
       borderColor:'teal',
       borderRadius:15,
-      marginLeft:30,
-      marginRight:30,
-      marginTop:20,
-      marginBottom:20
+      marginLeft:20,
+      marginRight:20,
+    },
+    helperTitle: {
+      flex: 1,
+      flexDirection: 'row',
+      start: 10,
+      top: 17
     },
 });

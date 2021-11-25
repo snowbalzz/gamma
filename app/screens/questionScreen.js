@@ -211,14 +211,13 @@ export default function questionScreen({navigation}) {
                       borderWidth: 2,
                     }}
                   >
-                    <Text style={{ margin: 10, color: "gray" }}>
-                      {currentQuestion.questionText}
+                    <Text style={{ margin: 10, color: "gray"s}}>
+                      {currentQuestion.questionText}?
                     </Text>
                   </View>
                   <View
                     style={{
                       flex: 1,
-                      backgroundColor: "teal",
                       alignItems: "center",
                       justifyContent: "center",
                       margin: 10,
@@ -226,28 +225,15 @@ export default function questionScreen({navigation}) {
                     }}
                   >
                     {currentQuestion.answerOptions.map((answerOption) => (
-                      <Button
-                        color="#ffffff"
-                        onPress={() =>
+
+                      <View style={{flex: 1, backgroundColor: "teal", borderRadius: 15, alignItems: "center", justifyContent: "center", width:"80%", margin:10}}>
+                      <Text style={{ fontSize: 30, color: "white"}} onPress={() =>
                           handleAnswerOptionClick(answerOption.isCorrect)
-                        }
-                        title={answerOption.answerText}
-                      ></Button>
+                        }>
+                         {answerOption.answerText}
+                      </Text>
+                      </View>
                     ))}
-                  </View>
-                  <View
-                    style={{
-                      flex: 0.2,
-                      backgroundColor: "red",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      margin: 10,
-                      borderRadius: 15,
-                    }}
-                  >
-                    <Text style={{ color: "white" }} onPress={()=>{reset()}}>
-                      Cancel
-                    </Text>
                   </View>
                 </View>
               )}

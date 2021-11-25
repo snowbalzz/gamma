@@ -25,7 +25,7 @@ export default function TokenScreen({ navigation }) {
             </View>
           </View>
           <View style={styles.helperContainer}>
-            <View style={styles.icon1}>
+            <View style={{flex: 1, backgroundColor: "teal", borderRadius: 15, alignItems: "center", justifyContent: "center",}}>
               <Text style={{ fontSize: 30, color: "white", margin: 10 }}>
                  TEST ELEMENT
               </Text>

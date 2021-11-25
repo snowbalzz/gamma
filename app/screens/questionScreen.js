@@ -211,8 +211,8 @@ export default function questionScreen({navigation}) {
                       borderWidth: 2,
                     }}
                   >
-                    <Text style={{ margin: 10, color: "gray" }}>
-                      {currentQuestion.questionText}
+                    <Text style={{ margin: 10, color: "gray"}}>
+                      {currentQuestion.questionText}?
                     </Text>
                   </View>
                   <View
